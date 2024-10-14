@@ -8,9 +8,8 @@ import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants";
 import Target from "../components/Target";
 import ReactLogo from "../components/ReactLogo";
-// import Cube from "../components/Cube";
 import TypeScript3D from "../components/TypeScript";
-import Rings from "../components/Rings";
+import ReactNative3D from "../components/ReactNative";
 import HeroCamera from "../components/HeroCamera";
 import Button from "../components/Button";
 
@@ -50,7 +49,7 @@ const Hero = () => {
               <Target position={sizes.targetPosition} />
               <ReactLogo position={sizes.reactLogoPosition} />
               <TypeScript3D position={sizes.typescriptPosition} />
-              <Rings position={sizes.ringPosition} />
+              <ReactNative3D position={sizes.reactNativePosition} />
             </group>
 
             <ambientLight intensity={1} />

@@ -280,14 +280,14 @@ export const calculateSizes = (
         ? [5, 4, 0]
         : [12, 3, 0])
     ),
-    ringPosition: new Vector3(
+    reactNativePosition: new Vector3(
       ...(isSmall
-        ? [-5, 7, 0]
+        ? [-2.25, 4, 0]
         : isMobile
-        ? [-10, 10, 0]
+        ? [-4, 5.5, 0]
         : isTablet
-        ? [-12, 10, 0]
-        : [-24, 10, 0])
+        ? [-5.5, 5.5, 0]
+        : [-10, 5, 0])
     ),
     targetPosition: new Vector3(
       ...(isSmall
