@@ -289,14 +289,14 @@ export const calculateSizes = (
         ? [-5.5, 5.5, 0]
         : [-10, 5, 0])
     ),
-    targetPosition: new Vector3(
+    tailwindPosition: new Vector3(
       ...(isSmall
-        ? [-5, -10, -10]
+        ? [-6.5, -9.5, -10]
         : isMobile
         ? [-9, -10, -10]
         : isTablet
-        ? [-11, -7, -10]
-        : [-13, -13, -10])
+        ? [-10, -10, -10]
+        : [-13, -10.5, -10])
     ),
   };
 };

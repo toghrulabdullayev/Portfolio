@@ -17,7 +17,7 @@ const ReactNative3D = (props: FloatProps) => {
           geometry={(nodes.Curve001 as Mesh).geometry}
           material={materials["Material.001"]}
           position={[-1.657, -1.656, -0.025]}
-          rotation={[1.782, 0, 0.1]}
+          rotation={[1.65, 0.01, 0]}
           scale={24}
         />
       </group>

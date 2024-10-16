@@ -6,7 +6,7 @@ import HackerRoom from "../components/HackerRoom";
 import CanvasLoader from "../components/CanvasLoader";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants";
-import Target from "../components/Target";
+import Tailwind from "../components/Tailwind";
 import ReactLogo from "../components/ReactLogo";
 import TypeScript3D from "../components/TypeScript";
 import ReactNative3D from "../components/ReactNative";
@@ -46,7 +46,7 @@ const Hero = () => {
             </HeroCamera>
 
             <group>
-              <Target position={sizes.targetPosition} />
+              <Tailwind position={sizes.tailwindPosition} />
               <ReactLogo position={sizes.reactLogoPosition} />
               <TypeScript3D position={sizes.typescriptPosition} />
               <ReactNative3D position={sizes.reactNativePosition} />
