@@ -2,12 +2,12 @@ import { useState } from "react";
 
 import { navLinks } from "../constants";
 
-const NavItems = () => {
+const NavItems = ({ onClick }: { onClick?: () => void }) => {
   return (
     <ul className="nav-ul">
       {navLinks.map(({ href, id, name }) => (
         <li key={id} className="nav-li">
-          <a href={href} className="nav-li_a" onClick={() => {}}>
+          <a href={href} className="nav-li_a w-full h-full block py-2 max-sm:px-5" onClick={onClick}>
             {name}
           </a>
         </li>
@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center py-5 mx-auto c-space">
           <a
-            href="/"
+            href="#home"
             className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
           >
             Togrul
@@ -54,7 +54,7 @@ const Navbar = () => {
 
       <div className={`nav-sidebar ${isOpen ? "max-h-screen" : "max-h-0"}`}>
         <nav className="p-5">
-          <NavItems />
+          <NavItems onClick={() => setIsOpen(false)} />
         </nav>
       </div>
     </header>
