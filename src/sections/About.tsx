@@ -7,7 +7,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
-    navigator.clipboard.writeText("togrull1508@gmail.com");
+    navigator.clipboard.writeText("contact@togrul.dev");
 
     setHasCopied(true);
 
@@ -130,7 +130,7 @@ const About = () => {
                   alt="copy"
                 />
                 <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
-                  togrull1508@gmail.com
+                  contact@togrul.dev
                 </p>
               </div>
             </div>

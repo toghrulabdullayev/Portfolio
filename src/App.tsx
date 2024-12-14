@@ -11,7 +11,7 @@ function App() {
   return (
     <main className="max-w-7xl mx-auto">
       <Navbar /> {/* Move nav to the center and create a theme switcher */}
-      <Hero /> {/* Fix the canvas responsiveness. Add Tailwind, Vite, Three.js 3D models */}
+      <Hero /> {/* Add Vite and Three.js 3D models */}
       <About />
       <Projects /> {/* Change the pc's model and try to optimize the video there */}
       <Clients />
