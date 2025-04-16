@@ -1,7 +1,7 @@
 const config = {
-  emailjsServiceId: "",
-  emailjsTemplateId: "",
-  emailjsUserId: "",
+  emailjsServiceId: "id",
+  emailjsTemplateId: "id",
+  emailjsUserId: "id",
 };
 
 export default config;
