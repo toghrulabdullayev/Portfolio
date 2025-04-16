@@ -8,10 +8,10 @@ const Footer = () => {
       </div>
 
       <div className="flex gap-3">
-        <a target="_blank" href="https://www.linkedin.com/in/togrul-abdullayev/" className="social-icon">
+        <a target="_blank" href="https://www.linkedin.com/in/toghrul1/" className="social-icon">
           <img src="/assets/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2" />
         </a>
-        <a target="_blank" href="https://github.com/TogrulAbdullayev" className="social-icon">
+        <a target="_blank" href="https://github.com/toghrulabdullayev" className="social-icon">
           <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
         </a>
         <a className="social-icon">
@@ -19,7 +19,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <p className="text-white-500">© 2024 Togrul Abdullayev. All rights reserved.</p>
+      <p className="text-white-500">© 2025 Toghrul Abdullayev. All rights reserved.</p>
     </footer>
   );
 };

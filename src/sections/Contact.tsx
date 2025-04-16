@@ -30,7 +30,7 @@ const Contact = () => {
         "template_id",
         {
           from_name: form.name,
-          to_name: "Togrul",
+          to_name: "Toghrul",
           from_email: form.email,
           to_email: "contact@togrul.dev",
           message: form.message,
@@ -52,6 +52,8 @@ const Contact = () => {
     }
   };
 
+  return;
+
   return (
     <section className="c-space my-20" id="contact">
       <div className="h-fit flex items-center justify-center flex-col rounded-3xl">
@@ -60,8 +62,7 @@ const Contact = () => {
             <h3 className="head-text">Let's talk</h3>
             <p className="text-lg text-white-600 mt-3">
               Whether you’re looking to build a new website, improve your
-              existing project, or bring unique ideas to life, I’m here to
-              help.
+              existing project, or bring unique ideas to life, I’m here to help.
             </p>
 
             <form

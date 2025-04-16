@@ -28,10 +28,10 @@ const About = () => {
             />
 
             <div>
-              <p className="grid-headtext">Hi, I'm Togrul</p>
+              <p className="grid-headtext">Hi, I'm Toghrul</p>
               <p className="grid-subtext">
-                With 1.5 years of experience, I have honed my skills in frontend
-                development, with a focus on animated 3D websites.
+                With 2 years of experience, I have honed my skills in web
+                development, primarily using the MERN stack.
               </p>
             </div>
           </div>
@@ -48,8 +48,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in JavaScript/TypeScript with a focus on React and
-                React Native ecosystems.
+                I specialize in JavaScript/TypeScript with a focus on the MERN stack ecosystem.
               </p>
             </div>
           </div>

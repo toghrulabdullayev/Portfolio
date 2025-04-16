@@ -31,7 +31,7 @@ const Navbar = () => {
             href="#home"
             className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
           >
-            Togrul
+            Toghrul
           </a>
 
           <button
