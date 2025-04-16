@@ -2,6 +2,7 @@ import { useState, useRef, ChangeEvent, FormEvent } from "react";
 
 import emailjs from "@emailjs/browser";
 import Terminal from "../components/Terminal";
+import config from "../config/config";
 
 const Contact = () => {
   const formRef = useRef<HTMLFormElement>(null);
@@ -26,8 +27,8 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        "service_75v45ha",
-        "template_8qywcbh",
+        config.emailjsServiceId,
+        config.emailjsTemplateId,
         {
           from_name: form.name,
           to_name: "Togrul",
@@ -35,7 +36,7 @@ const Contact = () => {
           to_email: "contact@togrul.dev",
           message: form.message,
         },
-        "D5Zgqrq1O0OFSeeW1"
+        config.emailjsUserId
       );
 
       setLoading(false);
@@ -60,8 +61,7 @@ const Contact = () => {
             <h3 className="head-text">Let's talk</h3>
             <p className="text-lg text-white-600 mt-3">
               Whether you’re looking to build a new website, improve your
-              existing project, or bring unique ideas to life, I’m here to
-              help.
+              existing project, or bring unique ideas to life, I’m here to help.
             </p>
 
             <form
